@@ -10,7 +10,7 @@ spec:
  source:
    repoURL: 'https://github.com/Ripply3000/argocd-demo'
    targetRevision: HEAD
-   path: 'argocd/nginx-app'
+   path: 'nginx-app'
  destination:
    server: 'https://kubernetes.default.svc'
    namespace: default
